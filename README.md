@@ -18,6 +18,6 @@ The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation mod
    The host directory (PyMC3Models) must be shared in Docker, and user jovyan must have read and write privileges
 5. Enter Ctrl-C in the terminal window to shut down the notebook server
 6. You may wish to clean up the stopped Docker container:
-   docker ps –a       # this will give a container name
+   docker ps –a
    docker rm containername
 
