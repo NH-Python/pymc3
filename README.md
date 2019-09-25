@@ -11,7 +11,7 @@ The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation mod
 1. Make sure Docker is installed
 2. From a terminal window, get a docker image from dockerhub:
       docker pull scalafan/pymc3-arviz:version_1
-3. From a terminal window, run scalafan/pymc3_arviz:
+3. From a terminal window, run the image you just pulled:
       docker run -p 8888:8888 -v /Users/yourhome/PyMC3Models:/home/jovyan scalafan/pymc3-arviz:version_1
 4. Copy and paste the provided URL into your browser address bar
    Any notebooks you create will be saved in the PyMC3Models directory
