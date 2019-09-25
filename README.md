@@ -11,7 +11,7 @@ The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation mod
 1. Make sure Docker is installed
 2. From a terminal window, get a docker image from dockerhub:\
 \
-      docker pull scalafan/pymc3-arviz:version_1\
+      docker pull scalafan/pymc3-arviz:version_1 \  
 \
 3. From a terminal window, run the image you just pulled:\  
  \
