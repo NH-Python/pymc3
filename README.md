@@ -2,7 +2,7 @@
 
 Presentation on PyMC3 Sept. 26, 2019
 
-The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which refers to Jupyter Notebooks, which are live.  It should be noted that Part4-Challenger.ipynb includes static images of data plots rather than re-generating them using code.  If the data is changed, the plots will not be updated.
+The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which refers to Jupyter Notebooks, which are live.  It should be noted that Part4-Challenger.ipynb includes static images of data plots rather than re-generating them using code (to make a clearer presentation).  If the data is changed, the plots will not be updated.
 
 The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation module, as well as on their dependencies. The easiest way to create a Jupyter Notebook server with the required software to run the notebooks is to pull a Docker image the author has created based on jupyter/datascience-notebook.
 
