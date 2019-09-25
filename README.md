@@ -6,7 +6,7 @@ The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which re
 
 The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation module, as well as on their dependencies. The easiest way to create a Jupyter Notebook server with the required software to run the notebooks is to pull a Docker image the author has created based on jupyter/datascience-notebook.
 
-##Setting up a Jupyter Notebook server with PyMC3, Arviz and RISE
+## Setting up a Jupyter Notebook server with PyMC3, Arviz and RISE
 
 1. Make sure Docker is installed
 2. From a terminal window, get a docker image from dockerhub:
