@@ -23,6 +23,7 @@ The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation mod
 5. Enter Ctrl-C in the terminal window to shut down the notebook server.
 6. You may wish to clean up the stopped Docker container:
   
-      docker ps –a
+      docker ps –a  
+      
       docker rm containername
   
