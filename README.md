@@ -1,6 +1,6 @@
 ## Probabilistic Programming With PyMC3
 
-Presentation on PyMC3 Sept. 26, 2019
+Presentation given Sept. 26, 2019
 
 ### Viewing the presentation
 
