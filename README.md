@@ -1,14 +1,26 @@
-# Probabilistic Programming With PyMC3
+## Probabilistic Programming With PyMC3
 
 Presentation on PyMC3 Sept. 26, 2019
 
 ### Viewing the presentation
 
-The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which refers to Jupyter Notebooks. All of the elements of the presentation can be viewed directly from this github repository with a browser by double-clicking on the file of interest.
+The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which refers to Jupyter Notebooks (in the .ipynb files). All of the elements of the presentation can be viewed directly from this github repository with a browser by double-clicking on the file of interest.
 
 ### Running the Jupyter Notebooks
 
-, which are live.  It should be noted that Part4-Challenger.ipynb includes static images of data plots rather than re-generating them using code (to make a clearer presentation).  If the data is changed, the plots will not be updated.
+Running the Jupyter Notebooks, which contain Python code, requires a Jupyter Notebook server and PyMC3, Arviz, RISE and their dependencies. It can be tricky getting everything to work (version mismatches are a typical problem). It is suggested that starting with a clean Python installation with only the necessary dependencies works best as it minimizes opportunities for conflicting version numbers among the dependencies.
+
+#### Default installation
+
+Basic directions are given on the respective websites:
+
+https://pymc3.readthedocs.io/en/latest/#Installation
+https://arviz-devs.github.io/arviz/
+https://github.com/damianavila/RISE
+
+#### Docker-based Jupyter Notebook Server
+
+
 
 The Jupyter Notebooks are dependent on PyMC3, Aviz and the RISE presentation module, as well as on their dependencies. The easiest way to create a Jupyter Notebook server with the required software to run the notebooks is to pull a Docker image the author has created based on jupyter/datascience-notebook.
 
