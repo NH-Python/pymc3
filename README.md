@@ -15,7 +15,7 @@ Running the Jupyter Notebooks, which contain Python code, requires a Jupyter Not
 Basic directions are given on the respective websites:
 
 https://pymc3.readthedocs.io/en/latest/#Installation  
-https://arviz-devs.github.io/arviz/
+https://arviz-devs.github.io/arviz/  
 https://github.com/damianavila/RISE
 
 #### Docker-based Jupyter Notebook Server
