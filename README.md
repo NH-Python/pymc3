@@ -26,28 +26,30 @@ The following directions are written for Mac OSX, and are likely very similar fo
 
 ## Setting up a Jupyter Notebook server with PyMC3, Arviz and RISE
 
-1. Make sure Docker Desktop is installed and running (https://www.docker.com/products/docker-desktop)
+1. Create a directory in your host home directory for your data (I've used PyMC3Models), and give everyone read-write access to only that directory.  If you are concerned about giving _everyone_ write access to that directory, you can create a user named jovyan and give jovyan read-write access. The Jupyter server inside the container runs as jovyan, as defined by the Jupyter Docker Stacks project.
 
-2. From a terminal window, get the PyMC3 docker image from dockerhub:
+2. Click the green "Clone or Download" button above, and download this repository as a zip file. Extract the files and place them in your PyMC3Models directory.
+
+3. Make sure Docker Desktop is installed and running (https://www.docker.com/products/docker-desktop)
+
+4. From a terminal window, get the PyMC3 docker image from dockerhub:
 
       docker pull scalafan/pymc3-arviz:version_1
       
-3. Verify that you have the image using:
+5. Verify that you have the image using:
       
       docker images
-      
-4. Create a directory in your host home directory for your data (I've used PyMC3Models), and give everyone read-write access to only that directory.  If you are concerned about giving _everyone_ write access to that directory, you can create a user named jovyan and give jovyan read-write access. The Jupyter server inside the container runs as jovyan, as defined by the Jupyter Docker Stacks project.
-      
-5. From a terminal window, run the image you just pulled (do not change the /home/jovyan part):
+       
+6. From a terminal window, run the image you just pulled (do not change the /home/jovyan part):
  
       docker run -p 8888:8888 -v /Users/yourhome/PyMC3Models:/home/jovyan scalafan/pymc3-arviz:version_1
  
-6. Copy and paste the provided URL into your browser address bar.
+7. Copy and paste the provided URL into your browser address bar.
    Any notebooks you create will be saved in the PyMC3Models directory on the host.
    
-7. Enter Ctrl-C in the terminal window to shut down the notebook server.
+8. Enter Ctrl-C in the terminal window to shut down the notebook server.
 
-8. You may wish to clean up the stopped Docker container:
+9. You may wish to clean up the stopped Docker container:
   
       docker ps –a  
       
