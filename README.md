@@ -18,13 +18,11 @@ PyMC3:  https://pymc3.readthedocs.io/en/latest/#Installation
 Arviz:  https://arviz-devs.github.io/arviz/  
 RISE:   https://github.com/damianavila/RISE
 
-#### Docker-based Jupyter Notebook Server
+#### Docker-based Jupyter Notebook Server (preferred method)
 
 The Jupyter Notebook server used for the presentation is available as a Docker image on DockerHub.  It adds PyMC3, Arviz and RISE to the excellent jupyter/datascience-notebook image maintained by the Jupyter Docker Stacks project. Docker is software that manages containers, which are isolated Linux instances that are similar to virtual machines but much more resource efficient. Data created in the containers is frequently saved by mounting a directory on the host on a directory inside the container.
 
 The following directions are written for Mac OSX, and are likely very similar for other platforms.
-
-## Setting up a Jupyter Notebook server with PyMC3, Arviz and RISE
 
 1. Create a directory in your host home directory for your data (I've used PyMC3Models), and give everyone read-write access to only that directory.  If you are concerned about giving _everyone_ write access to that directory, you can create a user named jovyan and give jovyan read-write access. The Jupyter server inside the container runs as jovyan, as defined by the Jupyter Docker Stacks project.
 
