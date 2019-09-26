@@ -26,7 +26,7 @@ The following directions are written for Mac OSX, and are likely very similar fo
 
 1. Create a directory in your host home directory for your data (I've used PyMC3Models), and give everyone read-write access to only that directory.  If you are concerned about giving _everyone_ write access to that directory, you can create a user named jovyan and give jovyan read-write access. The Jupyter server inside the container runs as jovyan, as defined by the Jupyter Docker Stacks project.
 
-2. Click the green "Clone or Download" button above, and download this repository as a zip file. Extract the files and place them in your PyMC3Models directory.
+2. Click the green "Clone or download" button above, and download this repository as a zip file. Extract the files and place them in your PyMC3Models directory.
 
 3. Make sure Docker Desktop is installed and running (https://www.docker.com/products/docker-desktop)
 
