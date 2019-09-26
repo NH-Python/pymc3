@@ -55,3 +55,6 @@ The following directions are written for Mac OSX, and are likely very similar fo
       
       docker rm containername
   
+Note that the underlying jupyter/datascience-notebook image contains the key elements of the Python scientific computing and data science stacks, as well as R and Julia.  For more information, see:
+
+https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#selecting-an-image 
