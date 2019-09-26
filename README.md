@@ -42,8 +42,7 @@ The following directions are written for Mac OSX, and are likely very similar fo
  
       docker run -p 8888:8888 -v /Users/yourhome/PyMC3Models:/home/jovyan scalafan/pymc3-arviz:version_1
  
-7. Copy and paste the provided URL into your browser address bar.
-   Any notebooks you create will be saved in the PyMC3Models directory on the host.
+7. Copy and paste the provided URL into your browser address bar.  Open or create notebooks. Any notebooks you save will be saved in the PyMC3Models directory on the host.
    
 8. Enter Ctrl-C in the terminal window to shut down the notebook server.
 
