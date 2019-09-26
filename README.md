@@ -8,7 +8,7 @@ The main presentation is in the ProbabilisticProgrammingPyMC3.pdf file, which re
 
 ### Running the Jupyter Notebooks
 
-Running the Jupyter Notebooks, which contain Python code, requires a Jupyter Notebook server and PyMC3, Arviz, RISE and their dependencies. It can be tricky getting everything to work (version mismatches are a typical problem). It is suggested that starting with a clean Python installation with only the necessary dependencies works best as it minimizes opportunities for conflicting version numbers among the dependencies.
+Running the Jupyter Notebooks, which contain Python code, or creating your own, requires a Jupyter Notebook server and PyMC3, Arviz, RISE and their dependencies. It can be tricky getting everything to work (version mismatches are a typical problem). It is suggested that starting with a clean Python installation with only the necessary dependencies works best as it minimizes opportunities for conflicting version numbers among the dependencies.
 
 #### Default installation
 
